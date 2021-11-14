@@ -17,6 +17,11 @@ app.config(function($routeProvider) {
     controller : "gCtrl" ,
     caseInsensitiveMatch: true
   })
+  .when("/runes", {
+    templateUrl : "app/goralut/runes.html",
+    controller : "gCtrl" ,
+    caseInsensitiveMatch: true
+  })
   // .when("/goral117", {
   //   templateUrl : "app/goralut/g117.html"
   // })
