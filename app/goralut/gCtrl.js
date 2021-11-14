@@ -36,10 +36,10 @@ app.controller('gCtrl', function($scope,gSrv) {
             
             $scope.result2=res2.meaning ;
           
-//            if(g=="runes25")
-//                 {
-//                 $scope.imgN="img/r"+rndNum+".jpg");
-//                 }
+           if(g=="runes25")
+                {
+                $scope.imgN="img/r"+rndNum+".jpg");
+                }
            
             $scope.$apply();
     })
