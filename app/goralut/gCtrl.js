@@ -25,15 +25,28 @@ app.controller('gCtrl', function($scope,gSrv) {
     } ;
  
 
-    $scope.goral2=async function(g,n){
+//     $scope.goral2=async function(g,n){
+//         //rnd num 
+//         rndNum=Math.floor((Math.random()*n)+1);
+       
+//         await  gSrv.getGoralById2(g,rndNum.toString()).then(function (res2) {
+//             $scope.res_idname=res2.idname;
+//             $scope.res_title=res2.title;
+            
+//             $scope.result2=res2.meaning ;
+
+//             $scope.$apply();
+//     })
+// } ;
+ $scope.goral2=async function(g,n){
         //rnd num 
         rndNum=Math.floor((Math.random()*n)+1);
        
-        await  gSrv.getGoralById2(g,rndNum.toString()).then(function (res2) {
-            $scope.res_idname=res2.idname;
-            $scope.res_title=res2.title;
+//         await  gSrv.getGoralById2(g,rndNum.toString()).then(function (res2) {
+//             $scope.res_idname=res2.idname;
+//             $scope.res_title=res2.title;
             
-            $scope.result2=res2.meaning ;
+            $scope.result2="Runes";//.res2.meaning ;
 
             $scope.$apply();
     })
