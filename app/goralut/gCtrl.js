@@ -11,6 +11,7 @@ app.controller('gCtrl', function($scope,gSrv) {
     
     $scope.result="";
     $scope.result2="";
+      $scope.result3="";
     //console.log();
 
     $scope.goral=async function(g,n){
@@ -46,7 +47,7 @@ app.controller('gCtrl', function($scope,gSrv) {
 //             $scope.res_idname=res2.idname;
 //             $scope.res_title=res2.title;
             
-            $scope.result2="Runes";//.res2.meaning ;
+            $scope.result3="Runes";//.res2.meaning ;
 
             $scope.$apply();
     })
