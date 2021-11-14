@@ -38,7 +38,7 @@ app.controller('gCtrl', function($scope,gSrv) {
           
            if(g=="runes25")
                 {
-                $scope.imgN="img/r"+rndNum+".jpg");
+                $scope.imgN="img/r"+rndNum+".jpg";
                 }
            
             $scope.$apply();
