@@ -27,7 +27,7 @@ app.controller('gCtrl', function($scope,gSrv) {
  
 
     $scope.goral2=async function(g,n){
-        $scope.imgN="";
+        $scope.imgN="";rndNum=0;
        //rnd num
         rndNum=Math.floor((Math.random()*n)+1);
      
