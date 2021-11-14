@@ -27,7 +27,8 @@ app.controller('gCtrl', function($scope,gSrv) {
  
 
     $scope.goral2=async function(g,n){
-        //rnd num 
+        $scope.imgN="";
+       //rnd num
         rndNum=Math.floor((Math.random()*n)+1);
      
         await  gSrv.getGoralById2(g,rndNum.toString()).then(function (res2) {
