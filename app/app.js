@@ -24,7 +24,7 @@ app.config(function($routeProvider) {
   })
    .when("/futureg", {
     templateUrl : "app/goralut/futureg.html",
-    controller : "gCtrl" ,
+    controller : "" ,
     caseInsensitiveMatch: true
   })
   // .when("/goral117", {
